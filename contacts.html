@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты — Софья Русакова, дизайнер</title>
+  <meta name="description" content="Обсудить проект с дизайнером Софьей Русаковой: Telegram, телефон или форма заявки.">
+  <meta property="og:title" content="Контакты — Софья Русакова">
+  <meta property="og:image" content="assets/img/sofya.jpg">
+  <meta name="theme-color" content="#050506">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23050506'/%3E%3Ctext x='16' y='23' font-family='Arial Black' font-size='20' fill='%234f6bff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Unbounded:wght@300;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem('sr-theme') || 'dark'; } catch (e) { document.documentElement.dataset.theme = 'dark'; } document.documentElement.classList.add('is-loading'); setTimeout(function () { document.documentElement.classList.remove('is-loading'); }, 6000);</script>
+</head>
+<body>
+  <div class="preloader" aria-hidden="true">
+    <div class="mono">софья русакова — portfolio<br>loading: identity / web / smm / print</div>
+    <div><div class="preloader__count">000</div><div class="preloader__bar"><i></i></div></div>
+  </div>
+  <div class="curtain" aria-hidden="true"><span>Контакты</span></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">Русакова<span>/ design</span></a>
+    <nav class="nav" aria-label="Основное меню">
+      <a href="index.html"><i>01</i>обо мне</a>
+      <a href="works.html"><i>02</i>работы</a>
+      <a href="services.html"><i>03</i>услуги и прайс</a>
+      <a href="contacts.html" aria-current="page"><i>04</i>контакты</a>
+    </nav>
+    <div class="header-right">
+      <button class="theme-toggle magnetic" type="button" aria-label="Переключить тему: день или ночь" aria-pressed="false"><span class="theme-toggle__dot"></span><span class="theme-toggle__txt">ночь</span></button>
+      <a class="btn magnetic" style="--h:44px;padding:0 22px" href="https://t.me/sofyaruso" target="_blank" rel="noopener">telegram <span class="arr">→</span></a>
+      <button class="burger" type="button" aria-label="Меню" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="mobile-menu" aria-label="Мобильное меню">
+    <a href="index.html"><i>01</i>Обо мне</a>
+    <a href="works.html"><i>02</i>Работы</a>
+    <a href="services.html"><i>03</i>Услуги</a>
+    <a href="contacts.html"><i>04</i>Контакты</a>
+  </nav>
+  <div class="hud hud--bl" aria-hidden="true"><span id="hud-time"></span><br>59.93°n 30.31°e</div>
+  <div class="hud hud--br" id="hud-scroll" aria-hidden="true">scroll 000%</div>
+
+  <main id="top">
+    <section class="page-hero">
+      <p class="mono kicker" data-intro>[04] контакты / открыта к проектам</p>
+      <h1 class="h-giant" data-split>Давайте<br><span class="serif ice">к делу</span></h1>
+    </section>
+
+    <section class="section" style="padding-top:10px">
+      <div class="contact-grid">
+        <div data-reveal>
+          <a class="big-link" href="https://t.me/sofyaruso" target="_blank" rel="noopener"><small>telegram — быстрее всего</small>@sofyaruso ↗</a>
+          <a class="big-link" href="tel:+79085445094"><small>телефон</small>+7 908 544 50 94</a>
+          <p class="lead" style="margin-top:40px">Расскажите о задаче в двух словах — я задам нужные вопросы, предложу решение и назову цену. Обычно отвечаю в тот же день.</p>
+          <a class="btn magnetic" style="margin-top:30px" href="brief.html">заполнить подробный бриф <span class="arr">→</span></a>
+          <p class="mono" style="margin-top:24px">санкт-петербург / удалённо по всему миру<br>русский / english</p>
+        </div>
+
+        <div data-reveal="1">
+          <form class="form" id="lead-form" novalidate>
+            <div class="field">
+              <label for="f-name">как вас зовут *</label>
+              <input id="f-name" name="name" type="text" required maxlength="80" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="f-contact">телефон или telegram *</label>
+              <input id="f-contact" name="contact" type="text" required maxlength="120" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="f-service">что нужно</label>
+              <select id="f-service" name="service"><option value="">выберите услугу</option></select>
+            </div>
+            <div class="field">
+              <label for="f-budget">бюджет</label>
+              <select id="f-budget" name="budget">
+                <option value="">пока не знаю</option>
+                <option>до 15 000 ₽</option>
+                <option>15 000 — 50 000 ₽</option>
+                <option>50 000 — 100 000 ₽</option>
+                <option>от 100 000 ₽</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label for="f-msg">о проекте</label>
+              <textarea id="f-msg" name="message" maxlength="2000" rows="4" placeholder=""></textarea>
+            </div>
+            <div class="hp" aria-hidden="true"><label for="f-web">не заполняйте</label><input id="f-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+            <label class="consent"><input type="checkbox" name="consent" value="да" required> <span>Согласен(-на) на обработку персональных данных для ответа на заявку в соответствии с <a href="privacy.html" target="_blank" rel="noopener">политикой обработки персональных данных</a></span></label>
+            <div class="form__actions">
+              <button class="btn btn--solid magnetic" type="submit">отправить заявку <span class="arr">→</span></button>
+              <span class="form__status" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+          <div class="form-done" tabindex="-1" role="status">
+            <p class="mono kicker">заявка отправлена</p>
+            <h3>Заявка<br><span class="serif ice">у меня</span></h3>
+            <p class="lead">Спасибо! Изучу задачу и напишу вам в ближайшее время. А пока — загляните в <a href="works.html" style="text-decoration:underline">работы</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="mono">© 2026 софья русакова — графический и веб-дизайнер<br>самозанятая, плательщик НПД<span data-inn></span></span>
+    <a class="mono" href="https://t.me/sofyaruso" target="_blank" rel="noopener">telegram @sofyaruso</a>
+    <a class="mono" href="tel:+79085445094">+7 908 544 50 94</a>
+    <a class="mono" href="privacy.html">политика конфиденциальности</a>
+    <a class="mono" href="#top">наверх ↑</a>
+  </footer>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cursor.js"></script>
+</body>
+</html>
